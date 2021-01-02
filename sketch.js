@@ -66,11 +66,11 @@ function draw(){
     particles.push(new Particles(random(100,300),10,8));
 }
 
- for (var d = 0; d < divisions.lenght; d++) {
+ for (var d = 0; d < divisions.length; d++) {
     divisions[d].display()
   }
 
-  for (var i = 0; i < plinkos.lenght; i++){
+  for (var i = 0; i < plinkos.length; i++){
 	  plinkos[i].display()
   }
 
